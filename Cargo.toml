@@ -1,0 +1,14 @@
+[package]
+name = "bla"
+version = "0.1.0"
+edition = "2018"
+authors = ["René Rössler"]
+
+[package.metadata.deb]
+assets = [
+    [
+        "data/*",
+        "tmp/",
+        "644",
+    ],
+]
